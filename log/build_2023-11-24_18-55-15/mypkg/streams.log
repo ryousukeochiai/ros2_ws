@@ -1,0 +1,28 @@
+[1.115s] Invoking command in '/home/ryousuke/ros2_ws/src/mypkg': PYTHONPATH=/home/ryousuke/ros2_ws/build/mypkg/prefix_override:/home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryousuke/ros2_ws/build/mypkg/build install --record /home/ryousuke/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.323s] running egg_info
+[1.324s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.324s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.324s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.324s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.324s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.362s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.363s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.365s] running build
+[1.366s] running build_py
+[1.366s] copying mypkg/talker.py -> /home/ryousuke/ros2_ws/build/mypkg/build/lib/mypkg
+[1.366s] copying mypkg/listener.py -> /home/ryousuke/ros2_ws/build/mypkg/build/lib/mypkg
+[1.366s] running install
+[1.366s] running install_lib
+[1.367s] copying /home/ryousuke/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.368s] copying /home/ryousuke/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.368s] byte-compiling /home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.370s] byte-compiling /home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.370s] running install_data
+[1.372s] running install_egg_info
+[1.372s] removing '/home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.373s] Copying ../../build/mypkg/mypkg.egg-info to /home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.375s] running install_scripts
+[1.391s] Installing listener script to /home/ryousuke/ros2_ws/install/mypkg/lib/mypkg
+[1.391s] Installing talker script to /home/ryousuke/ros2_ws/install/mypkg/lib/mypkg
+[1.391s] writing list of installed files to '/home/ryousuke/ros2_ws/build/mypkg/install.log'
+[1.411s] Invoked command in '/home/ryousuke/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ryousuke/ros2_ws/build/mypkg/prefix_override:/home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryousuke/ros2_ws/build/mypkg/build install --record /home/ryousuke/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

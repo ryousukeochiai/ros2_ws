@@ -1,0 +1,5 @@
+  File "/home/ryousuke/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py", line 20
+    <license>BSD-3-Clause</license>
+    ^
+SyntaxError: invalid syntax
+
