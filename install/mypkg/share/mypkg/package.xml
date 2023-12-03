@@ -6,10 +6,11 @@
   <description>a package for practice</description>
   <maintainer email="s22C1028FL@s.chibakoudai.jp">Ryousuke Ochiai</maintainer>
   <license>BSD-3-Clause</license>
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
 
+  <exec_depend>rclpy</exec_depend>            <-追加
+  <exec_depend>std_msgs</exec_depend>         <-追加
   <exec_depend>launch_ros</exec_depend>
+
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

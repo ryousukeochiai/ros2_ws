@@ -1,6 +1,6 @@
-from setuptools import setup
 import os                  #追加
 from glob import glob      #追加
+from setuptools import setup
 
 package_name = 'mypkg'
 
@@ -19,12 +19,12 @@ setup(
     maintainer='Ryousuke Ochiai',
     maintainer_email='s22C1028FL@s.chibakoudai.jp',
     description='a package for practice',
-    license='BSD-3-Claus',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
-    'console_scripts': [
-        'talker = mypkg.talker:main',
-        'listener = mypkg.listener:main',
-    ],
+        'console_scripts': [
+            'talker = mypkg.talker:main',
+            'listener = mypkg.listener:main',
+        ],
     },
 )

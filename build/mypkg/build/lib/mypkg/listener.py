@@ -10,12 +10,12 @@ def main():
         node.get_logger().info('待機中')
 
     req = Query.Request()
-    req.name = "落合亮輔"
+    req.name = "上田隆一"
     future = client.call_async(req) #非同期でサービスを呼び出し
 
-while rclpy.ok():
-        rclpy.spin_once(node) #一回だけサービスを呼び出したら終わり
-        if future.done():     #終わっていたら
+    while rclpy.ok():
+         rclpy.spin_once(node) #一回だけサービスを呼び出したら終わり
+         if future.done():     #終わっていたら
             try:
                 response = future.result() #結果を受取り
             except:
@@ -24,9 +24,9 @@ while rclpy.ok():
                 node.get_logger().info("age: {}".format(response.age))
 
             break #whileを出る
-        
-        node.destroy_node() #ノードの後始末
-        rclpy.shutdown()    #ノードの後始末
+    
+    node.destroy_node() #ノードの後始末
+    rclpy.shutdown()    #ノードの後始末
 
 if __name__ == '__main__': #ライブラリと区別するためのPythonの記法
     main()
